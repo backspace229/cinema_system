@@ -1,4 +1,4 @@
-package src
+package app_api
 
 import (
 	"net/http"
