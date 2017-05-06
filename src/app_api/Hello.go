@@ -7,7 +7,7 @@ import (
 	"google.golang.org/appengine/log"
 )
 
-func Hello(w http.ResponseWriter, r *http.Request) {
+func HelloHandler(w http.ResponseWriter, r *http.Request) {
 	c := appengine.NewContext(r)
 	log.Infof(c, "hello, world")
 }
